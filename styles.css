@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Mouse+Memoirs&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yantramanav:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Padauk&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap');
+*{
+  font-family: "Padauk";
+  
+}
+
+body{
+  background-color: rgb(28, 26, 26);
+  color: white;
+}
+
+#liga{
+  font-family: "Staatliches";
+  letter-spacing: 3px;
+  border-radius: 20px;
+  width: 20%;
+  padding-left: 29px;
+  background-color: rgb(255, 0, 4);
+  font-size: 40px;
+}
+
+#cadastro{
+  border-radius: 14px;
+  background-color: red;
+  width: 7%;
+  padding-left: 14px;
+ 
+}
+
+label{
+  font-size:18px;
+}
+
+#obrigado{
+  font-family: "Tangerine";
+  font-size: 40px;
+  width: 26%;
+  padding-left: 6px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(255, 0, 0);
+  border-radius: 20px;
+}
+
+#ligaa{
+  font-family: "Staatliches";
+  letter-spacing: 3px;
+  border-radius: 20px;
+  width: 20%;
+  padding-left: 29px;
+  background-color: rgb(255, 0, 4);
+  font-size: 40px;
+}
+  
+

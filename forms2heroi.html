@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Liga dos Heróis</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h2 id="liga">Liga dos Heróis</h2>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Connecticut_ComiCONN_Superhero_Mascot..jpg/330px-Connecticut_ComiCONN_Superhero_Mascot..jpg" alt="">
+ <hr>
+  <p>Já pensou que poderia usar suas habilidades para ajudar as pessoas, e ainda ser remunerado por isso? 
+  Se você acha que tem habilidades o suficientes para lidar com qualquer tipo de perigo, cadastre-se!</p>
+  <p>OBS: Só pariticipe se você realmente tiver capacidades suficientes, caso contrário, não nos responsabilizamos por acidentes, ou morte.</p>
+  <hr>
+  <br>
+  <h2 id="cadastro">Cadastro</h2>
+  <form action="form3heroi.html">
+    <label for="name"><strong>• Nome:</strong> </label> 
+    <input type="text" name="nome:" placeholder="Ex:João da Silva" required> 
+    <br>
+    <br>
+    <label for="personemail"><strong>• Email:</strong></label>
+    <input type="email" name="personemail" placeholder="fulanodetal@gmail.com">
+    
+    <label for="pswrd"> <strong>• Senha</strong>:</label>
+    <input type="password" name="pswrd">
+    <br>
+    <br>
+    <label for="data"><strong>• Data de nascimento:</strong></label>
+    <input type="date" name="data">
+    <label for="fotoastro"> <strong>• Foto:</strong></label>
+    <input type="file" name="fotoastro">
+    <br>
+    <br>
+    <label for="pais"><strong>• Nacionalidade:</strong></label>
+    <input list="pais">
+
+    <datalist id="pais">
+      <option value="Russo">
+      <option value="Brasileiro">
+      <option value="Americano">
+      <option value="Mexicano">
+    </datalist>
+    <label for="sexo"><strong>• Gênero: </strong></label>
+    Feminino<input type="radio" name="sexo"> 
+    Masculino<input type="radio" name="sexoo"> 
+    <br>
+    <br>
+    <label for="qualitys"><strong>• Suas principais qualidades:</strong></label>
+    <br>
+    Voar <input type="checkbox" name="qualitys">
+    <br>
+    Resistência <input type="checkbox" name="qualitys">
+    <br>
+    Super-força <input type="checkbox" name="qualitys">
+    <br>
+    Inteligência <input type="checkbox" name="qualitys">
+    <br>
+    Resiliência <input type="checkbox" name="qualitys">
+    <br>
+    Destreza <input type="checkbox" name="qualitys">
+    <br>
+    <br>
+    <label for=""><strong>• Suas Motivações:</strong></label>
+    <br>
+    <textarea name="motivations" id="" cols="31" rows="7" placeholder="Por que você gostaria de ser um super-herói?"></textarea>
+    <br>
+    <br>
+    <input type="submit" name="criar" value="Quero ser um herói!" > 
+  </form>
+</body>
+</html>
